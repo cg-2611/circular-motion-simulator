@@ -27,5 +27,4 @@ gradlew.bat run
 
 ### Screenshot
 ---
-![Screenshot](./src/main/resources/simulator_screenshot.png)
-
+![Screenshot](https://user-images.githubusercontent.com/85838571/126817250-7a85ba63-4891-455b-bbc1-8393fb21bf9a.png)
