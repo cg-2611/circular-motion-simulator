@@ -1,0 +1,44 @@
+Adding and Deleting Objects -
+
+To add an object to the simulation, first you must click the "Edit Mode" button to the left of the bottom panel. "Edit Mode" allows you to add objects to the simulation. Once in "Edit Mode", choose the type of object you wish to add using the dropdown menu and then click on the simulation to add it.
+
+Star objects are added directly onto the black background and appear where the mouse has been clicked.
+
+Planet objects are added by clicking on the star object you wish to attach the planet to. When added, the planet will appear to the right of the star. Each star has a maximum of 2 planets that are able to be attached to it.
+
+Moon objects are added by clicking on the planet object you wish to attach the moon to. When added, the moon will appear to the right of the planet. Each planet has a maximum of 1 moon that can be attached to it.
+
+To delete an object in the simulation, first you must click the "Select Mode" button to the left of the bottom panel. "Select Mode" allows you to select objects and manipulate their properties using the sliders. "Select Mode" also allows you to delete them. To do this, select the object you wish to delete by clicking on it. Selected objects appear with a red border. Once you have selected the object that you want to delete, simply click the delete object button. When you delete an object, any objects attached to the deleted object are also deleted.
+
+
+The Controls -
+
+To the right of the bottom panel, you will find the "Play/Pause" button, the "Reset" button, the "Clear" button and the "Tutorial" button.
+
+If the simulation is paused, clicking the "Play/Pause" button will play the simulation, and if the simulation is playing, clicking the button will pause it. The text on the button will display the opposite of the state of the simulation.
+
+The "Reset" button will only work when the simulation is paused and, when clicked, will make all the moving objects return to their original positions.
+
+The "Clear" button also, like the "Reset" button, only works when the simulation is paused and, when clicked, will remove all the objects from the simulation.
+
+Clicking the "Tutorial" button will re-open this window.
+
+
+The Sliders -
+
+The "Mass" slider will be available for all object types and changes the mass of the selected object. When the mass of an object is increased, the size of the object also increases, and if the mass is decreased, so does the object's size.
+
+The "Period" slider will only be available when Planet and Moon objects are selected. Increasing the value of the slider decreases the rotational speed of the object and decreasing the value increases the rotational speed of the object.
+
+The "Orbit Radius" slider will also, like the "Period" slider, be available when Planet and Moon objects are selected. Increasing the value of the slider increases the radius of the path of the object and decreasing the value decreases the path radius.
+
+All sliders have spinners which display the value of the slider and also allow for more precise alterations of the value of the equivalent property. Also, all sliders have labels which provide information about the magnitude of the quantity, for example the label of the "Mass" slider reads "Mass x 10^24" which means that when performing calculations using the slider's value, make sure to multiply the value by 10 raised to the 24th power.
+
+For more information about the slider such as how the value is used, hover over it.
+
+
+The Values -
+
+To the left of the controls on the bottom panel, there are two columns of different values that have been calculated using the slider values of a selected object. The values are only available for Planet and Moon objects and can be hidden by unchecking the checkbox next to the value. Each value also has a label with information about the magnitude of the quantity, such as the label for the frequency value reads "f x 10^-7" which means that when performing calculations with the value, make sure to multiply the value by 10 raised to the -7th power.
+
+For more information about a value such as a definition or how it is calculated, hover over it.

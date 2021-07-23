@@ -1,0 +1,29 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+application {
+    mainClass = 'circular.motion.simulator.simulator.Launcher'
+}
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'circular.motion.simulator.simulator.Launcher'
+        )
+    }
+}
+
+java {
+  toolchain {
+    languageVersion.set(JavaLanguageVersion.of(11))
+  }
+}
