@@ -25,3 +25,7 @@ and on windows run:
 gradlew.bat run
 ```
 
+### Screenshot
+---
+![screenshot](https://imgur.com/a/n5WnYdE)
+
